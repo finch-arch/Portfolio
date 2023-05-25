@@ -17,7 +17,7 @@ export default function Projects() {
                   <p className="card-text">
                     Create your Account. Create, Save and delete your Notes. Performs CRUD Operations.
                   </p>
-                  <a href="/" className="btn btn-secondary">
+                  <a href="https://github.com/finch-arch/BIT-Notes.git" target="_blank" rel="noreferrer" className="btn btn-secondary">
                     Github Link
                   </a>
                 </div>
@@ -31,7 +31,7 @@ export default function Projects() {
                   <p className="card-text">
                     Personal Site made using ReactJS, fetches your Codeforces rating.
                   </p>
-                  <a href="/" className="btn btn-secondary">
+                  <a href="https://github.com/finch-arch/Portfolio.git" target="_blank" rel="noreferrer" className="btn btn-secondary">
                     Github Link
                   </a>
                 </div>
@@ -41,12 +41,11 @@ export default function Projects() {
             <div className="card">
                 <img src={Login} className="card-img-top" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
+                  <h5 className="card-title">Demo Project</h5>
                   <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                  Weather App made using ReactJS and external API . Enter your location and fetch weather
                   </p>
-                  <a href="/" className="btn btn-secondary">
+                  <a href="https://github.com/finch-arch/Weather-App.git" target="_blank" rel="noreferrer" className="btn btn-secondary">
                     Github Link
                   </a>
                 </div>
