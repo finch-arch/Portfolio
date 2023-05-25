@@ -41,7 +41,7 @@ export default function Projects() {
             <div className="card">
                 <img src={Login} className="card-img-top" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title">Demo Project</h5>
+                  <h5 className="card-title">Weather App</h5>
                   <p className="card-text">
                   Weather App made using ReactJS and external API . Enter your location and fetch weather
                   </p>
