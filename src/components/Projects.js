@@ -2,7 +2,9 @@ import React from "react";
 import bitapp from './Images/Projects/edit.PNG'
 import portfolio from './Images/Projects/Portfolio.PNG'
 import Login from './Images/Projects/Login.PNG'
+import Aos from "aos";
 export default function Projects() {
+  Aos.init();
   return (
     <>
       <div className="projects" id="project">
@@ -11,7 +13,7 @@ export default function Projects() {
           <div className="row">
             <div className="col-12 col-md-4">
               <div className="card">
-                <img src={bitapp} className="card-img-top" alt="BIT App" />
+                <img src={bitapp} className="card-img-top" alt="BIT App" data-aos="flip-up" />
                 <div className="card-body">
                   <h5 className="card-title">BIT Notes</h5>
                   <p className="card-text">
@@ -25,7 +27,7 @@ export default function Projects() {
             </div>
             <div className="col-12 col-md-4 ">
             <div className="card" >
-                <img src={portfolio} className="card-img-top" alt="Personal Site" />
+                <img src={portfolio} className="card-img-top" alt="Personal Site" data-aos="flip-up"/>
                 <div className="card-body">
                   <h5 className="card-title">Personal Site</h5>
                   <p className="card-text">
@@ -39,7 +41,7 @@ export default function Projects() {
             </div>
             <div className="col-12 col-md-4">
             <div className="card">
-                <img src={Login} className="card-img-top" alt="..." />
+                <img src={Login} className="card-img-top" alt="..." data-aos="flip-up"/>
                 <div className="card-body">
                   <h5 className="card-title">Weather App</h5>
                   <p className="card-text">

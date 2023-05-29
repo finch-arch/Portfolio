@@ -18,7 +18,7 @@ export default function Skills() {
         <div className="heading-skill">
           <h1>Skills</h1>
         </div>
-        <div className="container">
+        <div className="container" >
           <div className="row">
             <div className="col-md-3 col-6 ">
             <img className ="ico" src={reactpng} alt="react" />

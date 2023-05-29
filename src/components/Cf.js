@@ -7,7 +7,7 @@ export default function Cf() {
   const [userData, setData] = useState([]);
   const [text, setText] = useState([]);
   const[alert , setAlert]= useState(null);
-  let url = `https://codeforces.com/api/user.rating?handle=${text}`;
+  let url = `https://codeforces.com/api/user.info?handles=${text}`;
   // useEffect(() => {
    
   // }, []);
@@ -20,6 +20,7 @@ export default function Cf() {
       // console.log(response.data.result[l - 1]);
       setData(response.data.result[l - 1]);
    //   console.log(l);
+
     }).catch(err =>{
       console.log(err);
       setAlert("Invalid Details")
@@ -32,6 +33,7 @@ export default function Cf() {
   const handleOnchange= (event) =>{
     setText(event.target.value);
   }
+ 
   return (
     <>
     <div className="form">
@@ -49,8 +51,11 @@ export default function Cf() {
       </div>
 
       <div className="c">
+        <img src={userData.titlePhoto} alt="" />
        <h3>Handle-{userData.handle}</h3>
-      <h3>Rating- {userData.newRating}</h3>
+      <h3>Rating- {userData.rating}</h3>
+      <h3>Max Rating- {userData.maxRating}</h3>
+      <h3>Rank-{userData.rank}</h3>
       </div>
     </div>
      

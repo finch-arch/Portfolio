@@ -71,6 +71,7 @@ body{
   font-size: 50px;
   color: rgb(0, 255, 208);
   margin-top: 10px;
+  margin-bottom: 16px;
 }
 /* about section */
 .about{
@@ -142,7 +143,7 @@ body{
 }
 .Skills img{
   width:50%;
-  margin-left: 25%;
+  margin-left: 10%;
   margin-top: 6px;
   margin-bottom: 15px;
 }
@@ -232,9 +233,24 @@ body{
   font-family: 'Sedgwick Ave Display', cursive;
   margin-top: 50px;
 }
+
+.c h3{
+  margin-top: 16px;
+}
 .form{
   margin-top: 20px;
 }
 .card{
   margin-bottom: 30px;
+}
+#light{
+  background-color: #8791cc;
+  color: black;
+}
+#dark{
+  background-color: black;
+}
+.toggle{
+  font-family: 'DynaPuff', cursive;
+  margin-top: 4px;
 }
